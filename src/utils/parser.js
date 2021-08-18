@@ -13,6 +13,9 @@ function parseCalendarInput(input) {
 
         let ID = tokenizedLine[0].trim();
         let name = tokenizedLine[1].trim();
+
+        let group = tokenizedLine[4].trim();
+        
         let dayOfWeek = tokenizedLine[5].trim();
         if (isNaN(parseInt(dayOfWeek, 10))) {
             continue; // invalid day
@@ -41,7 +44,8 @@ function parseCalendarInput(input) {
             room,
             campus,
             week,
-            selected: true
+            selected: true,
+            group
         });
 
     }
