@@ -1,0 +1,57 @@
+.file-usage-guide_question {
+    background-color: var(--white-color);
+    border: 3px solid var(--brown-color);
+    border-radius: 10px;
+    margin-top: 0.5rem;
+    overflow: hidden;
+    font-size: 1.2rem;
+    min-height: 1.2rem;
+    padding: 1rem;
+    margin-bottom: 0;
+    z-index: 2;
+    position: relative;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently
+                                   supported by Chrome, Edge, Opera and Firefox */
+    
+}
+.arrow {
+    transition: transform 0.5s ease;
+}
+
+.point-down {
+    transform: rotate(90deg);
+}
+
+.question {
+    padding-left: 1rem;
+}
+
+.file-usage-guide_wrapper {
+    position: relative;
+    z-index: 2;
+}
+.file-usage-guide {
+    overflow: hidden;
+    transition: max-height 1.25s ease, padding 0s ease 1.25s;
+    background-color: var(--white-color);
+    padding: 10px;
+    border-radius: 10px;
+    border: 3px solid var(--brown-color);
+    z-index: 1;
+    position: relative;
+    margin-top: -26px;
+}
+
+.file-usage-guide-show {
+    
+    max-height: 600px;
+}
+
+.file-usage-guide-hide {
+    max-height: 0;
+}

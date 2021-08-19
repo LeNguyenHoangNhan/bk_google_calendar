@@ -33,4 +33,7 @@
     #app_wrapper {
         max-width: 95vw;
     }
+    .header_separator {
+        margin-bottom: 2rem;
+    }
 }
