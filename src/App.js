@@ -37,6 +37,7 @@ class App extends React.Component {
         for (let i = 0; i < classList.length; i++) {
             if (classList[i].signature === targetSignature) {
                 classList[i].selected = !classList[i].selected;
+                break;
             }
         } 
         this.setState({ classList });
