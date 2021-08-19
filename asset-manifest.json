@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/bk_google_calendar/static/css/main.071b1be1.chunk.css",
-    "main.js": "/bk_google_calendar/static/js/main.3ceb9a7e.chunk.js",
-    "main.js.map": "/bk_google_calendar/static/js/main.3ceb9a7e.chunk.js.map",
+    "main.js": "/bk_google_calendar/static/js/main.065e8461.chunk.js",
+    "main.js.map": "/bk_google_calendar/static/js/main.065e8461.chunk.js.map",
     "runtime-main.js": "/bk_google_calendar/static/js/runtime-main.38cd3f9b.js",
     "runtime-main.js.map": "/bk_google_calendar/static/js/runtime-main.38cd3f9b.js.map",
     "static/js/2.82af1ebe.chunk.js": "/bk_google_calendar/static/js/2.82af1ebe.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.38cd3f9b.js",
     "static/js/2.82af1ebe.chunk.js",
     "static/css/main.071b1be1.chunk.css",
-    "static/js/main.3ceb9a7e.chunk.js"
+    "static/js/main.065e8461.chunk.js"
   ]
 }
