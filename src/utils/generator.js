@@ -17,7 +17,7 @@ function toTimeString(week, dayOfWeek, time) { // time in the format hh:mm
 function generateClass(clss) {
     let repeatTime = []
 
-    for (let i = 0; i < clss.week.length; i++) {
+    for (let i = 1; i < clss.week.length; i++) {
         repeatTime.push(toTimeString(clss.week[i], clss.dayOfWeek, clss.time[0]))
     }
 
