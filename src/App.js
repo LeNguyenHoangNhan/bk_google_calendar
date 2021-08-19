@@ -52,7 +52,7 @@ class App extends React.Component {
             <div id='app_wrapper'>
                 <h1 className='header'>BK Google Calendar</h1>
                 <hr className='header_separator' />
-                <GuideLine num={1} text={'Copy và dán thời khoá biểu của bạn vào đây, nhớ copy từ “Học kỳ 1...”  đến cuối bảng nhé.'} />
+                <GuideLine num={1} text={'Sao chép và dán thời khoá biểu của các môn bạn muốn xuất file vào đây.'} />
                 <CalendarInputField value={this.state.calendarInput} onChange={this.handleCalendarInputChange} />
                 <GuideLine num={2} text={'Chọn môn học mà bạn muốn xuất thời khoá biểu dưới đây.'} />
                 <CalendarSelector classList={this.state.classList} changeHandler={this.handleCalendarSelect} />

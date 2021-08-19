@@ -1,0 +1,35 @@
+@import-normalize;
+
+#root {
+    font-family: 'Roboto Condensed', sans-serif;
+    --brown-color: #5D534A;
+    --white-color:  #FFF5DA;
+    --placeholder-color: #5d534aaa;
+
+    color: var(--brown-color);
+
+}
+
+#app_wrapper {
+    max-width: 750px;
+    margin: auto;
+    height: 100vh;
+}
+
+.header {
+    font-size: 3rem;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+.header_separator {
+    border: none;
+    border-top: 2px solid var(--brown-color);
+    max-width: 60%;
+}
+@media (max-width: 700px) {
+    #app_wrapper {
+        max-width: 95vw;
+    }
+}
