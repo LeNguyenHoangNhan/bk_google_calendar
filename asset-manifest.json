@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/bk_google_calendar/static/css/main.d8733ea6.chunk.css",
-    "main.js": "/bk_google_calendar/static/js/main.a6f6ed75.chunk.js",
-    "main.js.map": "/bk_google_calendar/static/js/main.a6f6ed75.chunk.js.map",
-    "runtime-main.js": "/bk_google_calendar/static/js/runtime-main.4c1b42a5.js",
-    "runtime-main.js.map": "/bk_google_calendar/static/js/runtime-main.4c1b42a5.js.map",
-    "static/js/2.65ab724a.chunk.js": "/bk_google_calendar/static/js/2.65ab724a.chunk.js",
-    "static/js/2.65ab724a.chunk.js.map": "/bk_google_calendar/static/js/2.65ab724a.chunk.js.map",
-    "static/js/3.5f618dd1.chunk.js": "/bk_google_calendar/static/js/3.5f618dd1.chunk.js",
-    "static/js/3.5f618dd1.chunk.js.map": "/bk_google_calendar/static/js/3.5f618dd1.chunk.js.map",
+    "main.css": "/bk_google_calendar/static/css/main.071b1be1.chunk.css",
+    "main.js": "/bk_google_calendar/static/js/main.3ceb9a7e.chunk.js",
+    "main.js.map": "/bk_google_calendar/static/js/main.3ceb9a7e.chunk.js.map",
+    "runtime-main.js": "/bk_google_calendar/static/js/runtime-main.38cd3f9b.js",
+    "runtime-main.js.map": "/bk_google_calendar/static/js/runtime-main.38cd3f9b.js.map",
+    "static/js/2.82af1ebe.chunk.js": "/bk_google_calendar/static/js/2.82af1ebe.chunk.js",
+    "static/js/2.82af1ebe.chunk.js.map": "/bk_google_calendar/static/js/2.82af1ebe.chunk.js.map",
+    "static/js/3.26e128db.chunk.js": "/bk_google_calendar/static/js/3.26e128db.chunk.js",
+    "static/js/3.26e128db.chunk.js.map": "/bk_google_calendar/static/js/3.26e128db.chunk.js.map",
     "index.html": "/bk_google_calendar/index.html",
-    "static/css/main.d8733ea6.chunk.css.map": "/bk_google_calendar/static/css/main.d8733ea6.chunk.css.map",
-    "static/js/2.65ab724a.chunk.js.LICENSE.txt": "/bk_google_calendar/static/js/2.65ab724a.chunk.js.LICENSE.txt"
+    "static/css/main.071b1be1.chunk.css.map": "/bk_google_calendar/static/css/main.071b1be1.chunk.css.map",
+    "static/js/2.82af1ebe.chunk.js.LICENSE.txt": "/bk_google_calendar/static/js/2.82af1ebe.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.4c1b42a5.js",
-    "static/js/2.65ab724a.chunk.js",
-    "static/css/main.d8733ea6.chunk.css",
-    "static/js/main.a6f6ed75.chunk.js"
+    "static/js/runtime-main.38cd3f9b.js",
+    "static/js/2.82af1ebe.chunk.js",
+    "static/css/main.071b1be1.chunk.css",
+    "static/js/main.3ceb9a7e.chunk.js"
   ]
 }
