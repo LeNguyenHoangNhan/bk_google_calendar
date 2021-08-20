@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/bk_google_calendar/static/css/main.cfb5eb93.chunk.css",
+    "main.css": "/bk_google_calendar/static/css/main.8f4a07c9.chunk.css",
     "main.js": "/bk_google_calendar/static/js/main.f03e7150.chunk.js",
     "main.js.map": "/bk_google_calendar/static/js/main.f03e7150.chunk.js.map",
     "runtime-main.js": "/bk_google_calendar/static/js/runtime-main.e252122c.js",
@@ -10,13 +10,13 @@
     "static/js/3.2753bf66.chunk.js": "/bk_google_calendar/static/js/3.2753bf66.chunk.js",
     "static/js/3.2753bf66.chunk.js.map": "/bk_google_calendar/static/js/3.2753bf66.chunk.js.map",
     "index.html": "/bk_google_calendar/index.html",
-    "static/css/main.cfb5eb93.chunk.css.map": "/bk_google_calendar/static/css/main.cfb5eb93.chunk.css.map",
+    "static/css/main.8f4a07c9.chunk.css.map": "/bk_google_calendar/static/css/main.8f4a07c9.chunk.css.map",
     "static/js/2.62d18c46.chunk.js.LICENSE.txt": "/bk_google_calendar/static/js/2.62d18c46.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.e252122c.js",
     "static/js/2.62d18c46.chunk.js",
-    "static/css/main.cfb5eb93.chunk.css",
+    "static/css/main.8f4a07c9.chunk.css",
     "static/js/main.f03e7150.chunk.js"
   ]
 }
