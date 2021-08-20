@@ -1,94 +1,92 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code&display=swap");
 
 .file-usage-guide_question {
-    background-color: var(--white-color);
-    border: 3px solid var(--brown-color);
-    border-radius: 10px;
-    margin-top: 0.5rem;
-    overflow: hidden;
-    font-size: 1.2rem;
-    min-height: 1.2rem;
-    padding: 1rem;
-    margin-bottom: 0;
-    z-index: 2;
-    position: relative;
-    -webkit-touch-callout: none; /* iOS Safari */
-    -webkit-user-select: none; /* Safari */
-    -khtml-user-select: none; /* Konqueror HTML */
-    -moz-user-select: none; /* Old versions of Firefox */
-    -ms-user-select: none; /* Internet Explorer/Edge */
-    user-select: none; /* Non-prefixed version, currently
+  background-color: var(--container-fill-color);
+  border: 3px solid var(--text-color);
+  border-radius: 10px;
+  margin-top: 0.5rem;
+  overflow: hidden;
+  font-size: 1.2rem;
+  min-height: 1.2rem;
+  padding: 1rem;
+  margin-bottom: 0;
+  z-index: 2;
+  position: relative;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
                                    supported by Chrome, Edge, Opera and Firefox */
-    
 }
 .arrow {
-    transition: transform 2s ease;
+  transition: transform 2s ease;
 }
 
 .point-down {
-    transform: rotate(90deg);
+  transform: rotate(90deg);
 }
 
 .question {
-    padding-left: 1rem;
+  padding-left: 1rem;
 }
 
 .file-usage-guide_wrapper {
-    position: relative;
-    z-index: 2;
+  position: relative;
+  z-index: 2;
 }
 .file-usage-guide {
-    overflow: hidden;
-    transition: max-height 1s ease-in-out;
-    background-color: var(--white-color);
-    border-radius: 10px;
-    border: 3px solid var(--brown-color);
-    z-index: 1;
-    position: relative;
-    margin-top: calc(-10px);
+  overflow: hidden;
+  transition: max-height 1s ease-in-out;
+  background-color: var(--container-fill-color);
+  border-radius: 10px;
+  border: 3px solid var(--text-color);
+  z-index: 1;
+  position: relative;
+  margin-top: calc(-10px);
 }
 
 .file-usage-guide-show {
-    transition: max-height 1s ease-in-out; 
-    max-height: 800px;
+  transition: max-height 1s ease-in-out;
+  max-height: 800px;
 }
 
 .file-usage-guide-hide {
-    max-height: 0;
+  max-height: 0;
 }
 
 i.highlight {
-    font-size: 1.1rem;
-    font-weight: bold;
+  font-size: 1.1rem;
+  font-weight: bold;
 }
 
 .link {
-    color: var(--brown-color);
-    /* text-decoration: none; */
-    font-weight: 600;
-    transition: all 0.05s ease;
+  color: var(--text-color);
+  /* text-decoration: none; */
+  font-weight: 600;
+  transition: all 0.05s ease;
 }
 .link:visited {
-    color: var(--brown-color);
+  color: var(--text-color);
 }
 .link:active {
-    color: var(--white-color);
+  color: var(--container-fill-color);
 }
 
 code {
-    font-family: 'Fira Code', monospace;
+  font-family: "Fira Code", monospace;
 }
 
 .faq-section {
-    padding: 0 1rem;
-    
+  padding: 0 1rem;
 }
 .faq-section:first-child {
-    margin-top: 2rem;
+  margin-top: 2rem;
 }
-.faq-section>p {
-    margin-top: 0;
+.faq-section > p {
+  margin-top: 0;
 }
-.faq-section>h2 {
-    margin-bottom: 0.5rem;
+.faq-section > h2 {
+  margin-bottom: 0.5rem;
 }

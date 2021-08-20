@@ -1,16 +1,53 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
 body {
   margin: 0;
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #F7DAD9;
+
+  --brown-color: #5d534a;
+  --white-color: #fff5da;
+  --light-brown-color: #5d534a69;
+  --pink-color: #f7dad9;
+
+  --dark-gray-color: #334553;
+  --gray-color: #c5d8e1;
+  --dark-green-color: #0c819c;
+  --blue-color: #5baee5;
+  --cyan-color: #5baee5;
+
+  --black-color: #080b12;
+  --dark-blue-color: #0c132e;
+  --blue-color: #273c50;
+  --green-color: #5d807f;
+  --light-green-color: #8ba691;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 html {
   overflow-y: scroll;
+}
+
+.light {
+  --text-color: var(--brown-color);
+  --background-color: var(--pink-color);
+  --container-fill-color: var(--white-color);
+  --disable-color: var(--light-brown-color);
+  --placeholder-color: var(--light-brown-color);
+}
+.dark {
+  --text-color: var(--gray-color);
+  --background-color: var(--dark-blue-color);
+  --container-fill-color: var(--blue-color);
+  --disable-color: var(--green-color);
+  --placeholder-color: var(--light-brown-color);
+}
+
+#root {
+  background-color: var(--background-color);
+  min-height: 100vh;
+  transition: color 0.2s linear, background-color 0.2s linear;
 }

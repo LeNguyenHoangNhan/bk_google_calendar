@@ -1,51 +1,51 @@
 .class-selector_checkbox {
-    display: none;
+  display: none;
 }
 .class-selector_label::before {
-    content: '';
-    display: inline-block;
-    left: 0;
-    width: 1.2rem;
-    height: 1.2rem;
-    border: 2px solid var(--brown-color);
-    border-radius: 5px;
-    vertical-align: middle;
-    margin-right: 10px;
-    transition: all 0.06s ease-out;
+  content: "";
+  display: inline-block;
+  left: 0;
+  width: 1.2rem;
+  height: 1.2rem;
+  border: 2px solid var(--text-color);
+  border-radius: 5px;
+  vertical-align: middle;
+  margin-right: 10px;
+  transition: all 0.06s ease-out;
 }
 @media (max-width: 700px) {
-    .class-selector_label::before {
-        width: 1.5rem;
-        height: 1.5rem;
-    }
+  .class-selector_label::before {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
 }
 
 .calendar-selector_wrapper {
-    background-color: var(--white-color);
-    border: 3px solid var(--brown-color);
-    border-radius: 10px;
-    padding: 10px;
-    white-space: nowrap;
-    overflow-y: auto;
+  background-color: var(--container-fill-color);
+  border: 3px solid var(--text-color);
+  border-radius: 10px;
+  padding: 10px;
+  white-space: nowrap;
+  overflow-y: auto;
 }
 
 .class-selector_label {
-   font-size: 1.2rem;
+  font-size: 1.2rem;
 
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 .class-selector_checkbox:checked + .class-selector_label::before {
-    background-color: var(--brown-color);
+  background-color: var(--text-color);
 }
 
 .class-item_wrapper {
-    -webkit-touch-callout: none; /* iOS Safari */
-    -webkit-user-select: none; /* Safari */
-    -khtml-user-select: none; /* Konqueror HTML */
-    -moz-user-select: none; /* Old versions of Firefox */
-    -ms-user-select: none; /* Internet Explorer/Edge */
-    user-select: none; /* Non-prefixed version, currently
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
                                    supported by Chrome, Edge, Opera and Firefox */
-    margin: 0.25rem;
+  margin: 0.25rem;
 }
