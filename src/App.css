@@ -5,15 +5,14 @@
     --brown-color: #5D534A;
     --white-color:  #FFF5DA;
     --placeholder-color: #5d534aaa;
-
     color: var(--brown-color);
-
+    display: flex;
+    height: 100vh;
 }
 
 #app_wrapper {
     max-width: 750px;
     margin: auto;
-    height: 100vh;
 }
 
 .header {
@@ -27,7 +26,6 @@
     border: none;
     border-top: 2px solid var(--brown-color);
     max-width: 60%;
-    margin-bottom: 5rem;
 }
 @media (max-width: 700px) {
     #app_wrapper {
