@@ -18,7 +18,7 @@ function FileUsageGuide() {
                 <li>Các bạn truy cập vào địa chỉ sau: <a href="https://calendar.google.com">https://calendar.google.com</a>.</li>
                 <li>Bấm vào <i>bánh răng</i> ở góc trên cùng bên phải, bên trong menu xuất hiện, bấm vào <i>Cài đặt</i>.</li>
                 <li>Ở bên trái, bấm vào <i>Nhập và xuất</i>.</li>
-                <li>Bấm vào <i>Chọn tiếp từ máy tính</i>.</li>
+                <li>Bấm vào <i>Chọn tệp từ máy tính</i>.</li>
                 <li>Chọn tệp bạn vừa mới tải về, mặc định tên sẽ là <code>export.ics</code>.</li>
                 <li>Chọn lịch bạn muốn nhập môn học vào ở ô bên dưới. Bạn có thể tham khảo tạo thêm lịch cho từng học kỳ tại <a href="https://support.google.com/calendar/answer/37095?hl=vi">đây</a>.</li>
                 <li>Bấm vào <i>Nhập</i>.</li>
