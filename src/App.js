@@ -6,12 +6,12 @@ import CalendarInputField from './components/CalendarInput/CalendarInput';
 import CalendarSelector from './components/CalendarSelector/CalendarSelector';
 import DownloadButton from './components/DownloadButton/DownloadButton';
 import FileUsageGuide from './components/FileUsageGuide/FileUsageGuide';
+import Footer from './components/Footer/Footer'
 
 import { parseCalendarInput } from './utils/parser';
 import { generateICSFileContent } from './utils/generator';
 
 import FileSaver from 'file-saver';
-
 
 class App extends React.Component {
 
@@ -64,6 +64,7 @@ class App extends React.Component {
                 <GuideLine num={3} text={'Bấm nút Tải xuống để tải về file ics nhé.'} />
                 <DownloadButton isDownloadable={this.state.classList.length !== 0 && this.state.classList.filter(c => c.selected).length !== 0} clickHandler={this.handleDownload} />
                 <FileUsageGuide />
+                <Footer />
             </div>
         </React.StrictMode>;
     }
