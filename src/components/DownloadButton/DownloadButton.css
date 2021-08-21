@@ -1,25 +1,20 @@
 .download-button {
-    background-color: var(--white-color);
-    font-size: 1.25rem;
-    width: 8rem;
-    height: 3rem;
-    border: 3px solid var(--brown-color);
-    border-radius: 15px;
-    color: var(--brown-color);
-    transition: color 0.2s ease-out;
-    font-family: 'Roboto Condensed', sans-serif;
+  background-color: var(--container-fill);
+  font-size: 1.25rem;
+  width: 8rem;
+  height: 3rem;
+  border: 3px solid var(--border-color);
+  border-radius: 15px;
+  color: var(--text-color);
+
+  transition: color 0.2s ease-out;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 .download-button:disabled {
-    color: #5d534a69;
-    /* border: 3px solid #5d534a69; */
+  color: var(--deactive-color);
 }
 .download-button:active {
-    background-color: var(--brown-color);
-    color: var(--white-color);
+  background-color: var(--border-color);
+  color: var(--container-fill);
 }
-
-/* .download-button:hover {
-    width: 7.5rem;
-    height: 2.5rem;
-} */
