@@ -1,7 +1,7 @@
 @import-normalize;
 
 .dark-theme {
-  --text-color: #ffffff;
+  --text-color: #ededed;
   --background-color: #1e1e2f;
   --container-fill: #26293d;
   --border-color: #1f8ef1;
