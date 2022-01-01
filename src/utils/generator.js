@@ -3,7 +3,7 @@ import { v4 as uuidv4 } from 'uuid';
 function toTimeString(week, dayOfWeek, time) { // time in the format hh:mm
     let times = time.match(/\d+/g);
 
-    let date = new Date(2022, 0, 2, times[0], times[1]); //start of week 1 used to calculate using offset
+    let date = new Date(2022, 0, 3, times[0], times[1]); //start of week 1 used to calculate using offset
 
     const weekOfset = week - 1;
     const dayOfset = dayOfWeek - 2;
