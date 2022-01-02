@@ -1,3 +1,5 @@
+import Hashes from 'jshashes'
+
 function parseCalendarInput(input) {
     let line = input.split('\n');
 
@@ -15,14 +17,14 @@ function parseCalendarInput(input) {
         let name = tokenizedLine[1].trim();
 
         let group = tokenizedLine[4].trim();
-        
+
         let dayOfWeek = tokenizedLine[5].trim();
         if (isNaN(parseInt(dayOfWeek, 10))) {
             continue; // invalid day
         } else {
             dayOfWeek = parseInt(dayOfWeek, 10);
         }
-        
+
         let time = tokenizedLine[7].trim().match(/\d+:\d+/g);
         if (time === null) {
             continue;
@@ -36,7 +38,7 @@ function parseCalendarInput(input) {
             continue;
         }
         classList.push({
-            signature: ID + dayOfWeek.toString() + week.join(''),
+            signature: Hashes.MD5.base64(ID + dayOfWeek.toString() + week.join('') + time.join('') + room.join('')),
             ID,
             name,
             dayOfWeek,

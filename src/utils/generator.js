@@ -36,7 +36,7 @@ END:VEVENT`
 
 function generateICSFileContent(classList) {
     let content = `BEGIN:VCALENDAR
-VERSION:1.0
+VERSION:2.0
 PRODID:-//dev.chillcat.bkgooglecalendar//`;
 
     for (let i = 0; i < classList.length; i++) {
