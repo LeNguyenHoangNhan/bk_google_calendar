@@ -1,4 +1,5 @@
-import Hashes from 'jshashes'
+import sha256 from 'crypto-js/sha256'
+import Base64 from 'crypto-js/enc-base64'
 
 function parseCalendarInput(input) {
     let line = input.split('\n');
@@ -38,7 +39,7 @@ function parseCalendarInput(input) {
             continue;
         }
         classList.push({
-            signature: Hashes.MD5.base64(ID + dayOfWeek.toString() + week.join('') + time.join('') + room.join('')),
+            signature: Base64.stringify(sha256(ID + dayOfWeek.toString() + week.join('') + time.join('') + room)),
             ID,
             name,
             dayOfWeek,
